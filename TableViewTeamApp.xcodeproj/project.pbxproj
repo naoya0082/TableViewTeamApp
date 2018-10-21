@@ -13,6 +13,7 @@
 		D8B08232217C337B006D7570 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B08230217C337B006D7570 /* Main.storyboard */; };
 		D8B08234217C337C006D7570 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D8B08233217C337C006D7570 /* Assets.xcassets */; };
 		D8B08237217C337C006D7570 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D8B08235217C337C006D7570 /* LaunchScreen.storyboard */; };
+		D8B0823F217C4800006D7570 /* FirstTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8B0823E217C4800006D7570 /* FirstTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		D8B08233217C337C006D7570 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D8B08236217C337C006D7570 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D8B08238217C337C006D7570 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D8B0823E217C4800006D7570 /* FirstTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				D8B08235217C337C006D7570 /* LaunchScreen.storyboard */,
 				D8B08238217C337C006D7570 /* Info.plist */,
 				3738E3AE217C4DA900FC171C /* SecondTableViewController.swift */,
+				D8B0823E217C4800006D7570 /* FirstTableViewController.swift */,
 			);
 			path = TableViewTeamApp;
 			sourceTree = "<group>";
@@ -141,6 +144,7 @@
 				D8B0822F217C337B006D7570 /* ViewController.swift in Sources */,
 				3738E3AF217C4DA900FC171C /* SecondTableViewController.swift in Sources */,
 				D8B0822D217C337B006D7570 /* AppDelegate.swift in Sources */,
+				D8B0823F217C4800006D7570 /* FirstTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
