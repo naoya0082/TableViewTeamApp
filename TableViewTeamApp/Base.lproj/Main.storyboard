@@ -56,6 +56,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="1dO-hg-xCL" kind="show" id="JYu-zp-La2"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="HVG-TP-Un9" style="IBUITableViewCellStyleDefault" id="1SL-b2-RuN">
                                         <rect key="frame" x="0.0" y="88" width="375" height="44"/>
@@ -88,6 +91,11 @@
             </objects>
             <point key="canvasLocation" x="-225" y="39"/>
         </scene>
+        <!--Second Table View Controller-->
+        <scene sceneID="FjR-Yg-mYx">
+            <objects>
+                <tableViewController id="1dO-hg-xCL" customClass="SecondTableViewController" customModule="TableViewTeamApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="fTa-gt-bc7">
         <!--First Table View Controller-->
         <scene sceneID="oRR-8S-89q">
             <objects>
@@ -97,6 +105,8 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NameCell" textLabel="sLJ-Qe-wxT" style="IBUITableViewCellStyleDefault" id="DCL-yO-bTr">
+
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="NameCell" textLabel="VYH-qJ-9Ae" style="IBUITableViewCellStyleDefault" id="jIb-yw-On6">
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
@@ -105,6 +115,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="VYH-qJ-9Ae">
+
                                             <rect key="frame" x="16" y="0.0" width="343" height="43.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -116,14 +127,11 @@
                             </tableViewCell>
                         </prototypes>
                         <connections>
-                            <outlet property="dataSource" destination="Nvl-ja-R4z" id="Tkn-Up-8ag"/>
-                            <outlet property="delegate" destination="Nvl-ja-R4z" id="qdH-0P-Aub"/>
-                        </connections>
-                    </tableView>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="c8R-WV-9f5" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
+
+            <point key="canvasLocation" x="845" y="23"/>
+
             <point key="canvasLocation" x="529" y="39"/>
+
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="BaD-7o-xbf">
